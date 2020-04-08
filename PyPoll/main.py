@@ -18,9 +18,10 @@ with open(ELECTION_DATA, 'r') as election_data:
     Li_total = 0
     Otooley_total = 0
     total_votes = 0
+    total_candidate = []
 
 #total Voters
-     for row in csvreader:
+    for row in csvreader:
         total_candidate.append(str(row[2]))
     total_candidate_count = {}
 
